@@ -81,6 +81,7 @@ authBtn.addEventListener("click", function() {
         elLoginBtn.textContent = "Chiqish";
         localStorage.setItem("login",true)
       }
+      console.log(data)
     }
     authPost();
 })
